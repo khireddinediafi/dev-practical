@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+}
+.container {
+  background-color: #fff;
+  padding-top: 25px;
+}
+h1,
+figure,
+h2 {
+  text-align: center;
+}
+img {
+  filter: saturate(0.5);
+  -webkit-filter: saturate(0.5);
+}
+:first-child h2 {
+  font-style: italic;
+  color: gray;
+}
+figcaption {
+  padding-top: 20px;
+  font-style: italic;
+}
+ul li span {
+  font-weight: bold;
+  line-height: 1.8;
+}
+:last-of-type p {
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+:last-of-type p > a {
+  color: #477ca7;
+  font-size: 1.6rem;
+  font-style: italic;
+  text-decoration: none;
+}
